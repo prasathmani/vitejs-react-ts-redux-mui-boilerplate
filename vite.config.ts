@@ -6,6 +6,6 @@ import * as path from 'path';
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    alias: [{ find: '@ghadiwala', replacement: path.resolve(__dirname, 'src') }],
+    alias: [{ find: '@reactboilerplate', replacement: path.resolve(__dirname, 'src') }],
   },
 })

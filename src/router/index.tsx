@@ -1,4 +1,4 @@
-import { Navigate, RouteObject, useRoutes } from 'react-router-dom';
+import { RouteObject, useRoutes } from 'react-router-dom';
 import { ROUTES } from '../constants/endpoint';
 import App from '../pages/App';
 import NotFound from '../pages/notFound';

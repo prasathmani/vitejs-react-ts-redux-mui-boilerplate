@@ -1,4 +1,4 @@
-# GhadiWala
+# Vitejs + React + TypeScript + Rudux Thunk + Material UI Boilerplate
 
 ### Setup Project
 

@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "paths": {"@ghadiwala/*":["./src/*"]}
+    "paths": {"@reactboilerplate/*":["./src/*"]}
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

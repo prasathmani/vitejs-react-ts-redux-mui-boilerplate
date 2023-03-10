@@ -1,4 +1,4 @@
-import AppLayout from '@ghadiwala/layout/AppLayout';
+import AppLayout from '@reactboilerplate/layout/AppLayout';
 import { Wrapper } from './style';
 
 const NotFound = () => {

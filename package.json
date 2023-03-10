@@ -1,15 +1,19 @@
 {
-  "name": "ghadiwala",
+  "name": "vitejs-react-boilerplate",
+  "description": "Vitejs + React + TypeScript + Rudux Thunk + Material UI Boilerplate",
+  "author": "Prasath Mani",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasathmani/vitejs-react-ts-redux-mui-boilerplate.git"
+  },
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "vite --port 3010",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "prepare": "husky install && chmod ug+x .husky/*"
+    "preview": "vite preview"
   },
-  "prepare": "npx husky install .husky",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -19,8 +23,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
-    "react-router-dom": "^6.8.2",
-    "redaxios": "^0.5.1"
+    "react-router-dom": "^6.8.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
@@ -32,7 +35,6 @@
     "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
-    "husky": "^8.0.2",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "pretty-quick": "^3.1.3",
